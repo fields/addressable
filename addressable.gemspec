@@ -1,15 +1,16 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{addressable}
-  s.version = "2.2.3"
+  s.name = %q{fields-addressable}
+  s.version = "2.2.3.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bob Aman"]
   s.date = %q{2011-01-20}
   s.description = %q{Addressable is a replacement for the URI implementation that is part of
 Ruby's standard library. It more closely conforms to the relevant RFCs and
-adds support for IRIs and URI templates.
+adds support for IRIs and URI templates. This version parses #!
+  fragments as part of the path.
 }
   s.email = %q{bob@sporkmonger.com}
   s.extra_rdoc_files = ["README"]
